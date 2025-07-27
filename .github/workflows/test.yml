@@ -23,5 +23,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests with full path
-        run: npx --yes jest
+      - name: Run tests directly using node
+        run: node ./node_modules/jest/bin/jest.js
