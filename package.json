@@ -2,9 +2,10 @@
   "name": "test-actions-demo",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-  "test": "jest"
-},
+ "scripts": {
+  "test": "npx jest"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
